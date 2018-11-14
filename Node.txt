@@ -1,0 +1,10 @@
+1) Every File in node is a module and private to that file unless you export that particular identifier.
+
+2) you can use express generator to generate node application.
+	a) npm install -g express-generator
+	b) npm list -g --depth =0    (to find packages installed globally)
+	c) goto folder where you want to create application
+	d) express --view=pug appName
+
+3) for authentication 
+	passportjs.org
